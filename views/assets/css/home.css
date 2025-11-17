@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8; /* Fundo levemente cinza */
+    background-color: #f8f8f8;
     color: #333;
     line-height: 1.6;
 }
@@ -52,12 +52,14 @@ body {
 
 /* Estrutura principal */
 .process-main {
-    max-width: 1100px;
-    margin: 0 auto 50px auto;
-    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
 }
 
 .step-section {
+    max-width: 1100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,7 +71,7 @@ body {
 
 .step-details {
     flex: 1;
-    max-width: 50%; /* Limita a largura para manter o equilíbrio com a caixa visual */
+    max-width: 50%;
 }
 
 .step-details h3 {
@@ -83,7 +85,7 @@ body {
     margin-bottom: 25px;
 }
 
-/* Título do Passo (01 • Fundação, 02 • Experimentação) */
+
 .step-title-box {
     display: flex;
     align-items: center;
@@ -92,14 +94,13 @@ body {
     padding: 5px 15px;
     border-radius: 20px;
     width: fit-content;
-    color: #4A90E2; /* Cor base da fundação */
-    background-color: #e0f0ff; /* Fundo claro para o box */
+    color: #1855EE;
+    background-color: rgba(112, 152, 255, 0.37);
 }
 
 .step-title-box .step-icon {
     font-size: 1.2em;
     margin-right: 8px;
-    /* Ajustes para o ícone de seta/microscópio */
 }
 
 .step-title-box .step-number {
@@ -107,7 +108,7 @@ body {
 }
 
 .step-section.reverse-layout .step-title-box {
-    color: #00bcd4; /* Cor base da experimentação (Cyan) */
+    color: #00bcd4;
     background-color: #e0ffff; 
 }
 
@@ -126,16 +127,16 @@ body {
 }
 
 .check-icon {
-    color: #4A90E2; /* Cor azul para o check, como no original */
+    color: #4A90E2;
     font-weight: bold;
     font-size: 1.2em;
     margin-right: 10px;
 }
 
-/* Caixas Visuais (Azul e Ciano) */
+
 .step-visual {
     flex: 1;
-    min-height: 500px; /* Altura mínima para as caixas */
+    min-height: 500px;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -156,7 +157,7 @@ body {
     color: white;
 }
 
-/* Conteúdo Visual (Setas e Ícone do Tubo) */
+
 .visual-content {
     flex-grow: 1;
     display: flex;
@@ -164,34 +165,6 @@ body {
     align-items: center;
     font-size: 5em;
 }
-
-.arrow-icon {
-    font-family: monospace;
-    font-size: 4em;
-    margin: 0 10px;
-    opacity: 0.8;
-}
-
-/* Ícone do Tubo de Ensaio (Beaker) - Placeholder Simples */
-.beaker-icon {
-    width: 80px;
-    height: 120px;
-    border: 5px solid white;
-    border-radius: 0 0 10px 10px;
-    position: relative;
-    overflow: hidden;
-    margin-top: -30px; /* Ajuste visual */
-}
-
-.beaker-liquid {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 70%; /* Nível do líquido */
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
 
 /* Indicadores de Score/Contagem */
 .quality-score, .active-experiments {
@@ -217,7 +190,7 @@ body {
 section.carousel{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 80px;
 }
 
 .card-rating{
