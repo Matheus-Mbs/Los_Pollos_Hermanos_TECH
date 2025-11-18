@@ -1,0 +1,199 @@
+body.body-dark {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #0a0f2c;
+    background-image: radial-gradient(ellipse at center, #101f4a 0%, #0a0f2c 75%);
+    color: #e0f8ff;
+    min-height: 100vh;
+}
+
+.header-section {
+    padding: 40px 0 20px 0;
+}
+
+.title-badge-special {
+    display: block; /* ALTERADO de inline-block */
+    width: fit-content; /* ADICIONADO */
+    margin-left: auto; /* ADICIONADO */
+    margin-right: auto; /* ADICIONADO */
+    border: 1px solid #00aaff;
+    background-color: rgba(0, 170, 255, 0.1);
+    color: #00c2ff;
+    padding: 8px 25px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.banner-confidential {
+    display: block; /* ALTERADO de inline-block */
+    width: fit-content; /* ADICIONADO */
+    margin-left: auto; /* ADICIONADO */
+    margin-right: auto; /* ADICIONADO */
+    border: 1px solid #00aaff;
+    background-color: rgba(0, 170, 255, 0.1);
+    color: #00c2ff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.banner-confidential p {
+    margin: 0;
+}
+
+.catalogo-subtitle {
+    color: #a0c8d1;
+    font-size: 0.9rem;
+}
+
+.stats-bar {
+    padding: 20px 0 40px 0;
+}
+
+.stat-box {
+    background-color: #101a42;
+    border: 1px solid #005a7a;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.stat-box h5 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #00c2ff;
+}
+
+.stat-box p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #a0c8d1;
+}
+
+.services-section {
+    padding: 20px 0 60px 0;
+}
+
+.service-card-special {
+    background-color: #101a42;
+    border: 1px solid #00c2ff;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 194, 255, 0.4), 
+                inset 0 0 8px rgba(0, 194, 255, 0.2);
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.service-card-special:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 194, 255, 0.6), 
+                inset 0 0 10px rgba(0, 194, 255, 0.3);
+}
+
+.service-card-special .card-body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-header-with-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon-image-wrapper {
+    background-color: rgba(0, 170, 255, 0.15);
+    border: 1px solid #00aaff;
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.icon-image {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+/* REGRA ADICIONADA PARA O ÍCONE DE RH */
+#rh-icon {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.card-title-special {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #ffffff;
+    flex-grow: 1;
+}
+
+.card-text {
+    color: #a0c8d1;
+    margin-bottom: 20px;
+}
+
+.features-list-special {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    color: #e0f8ff;
+}
+
+.features-list-special li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+.features-list-special li::before {
+    content: '•';
+    color: #00c2ff;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.card-price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.price-note {
+    font-size: 0.8rem;
+    color: #a0c8d1;
+    font-weight: 400;
+}
+
+.btn-special {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.1rem;
+    padding: 12px 0;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    background-image: linear-gradient(to right, #007bff 0%, #00c2ff 100%);
+    background-size: 200% auto;
+    border: none;
+    margin-top: auto;
+}
+
+.btn-special:hover {
+    background-position: right center;
+    border-color: #00c2ff;
+    box-shadow: 0 0 10px rgba(0, 194, 255, 0.5);
+}
