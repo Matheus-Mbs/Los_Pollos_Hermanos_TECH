@@ -85,11 +85,11 @@
 
     <nav class="navPrincipal">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Carreiras</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../Servicos/servicos.php">Serviços</a></li>
+            <li><a href="../Sobre/sobre.php">Sobre nós</a></li>
+            <li><a href="../Contato/contato.php">Contato</a></li>
+            <li><a href="../Carreiras/carreiras.php">Carreiras</a></li>
         </ul>
     </nav>
 
