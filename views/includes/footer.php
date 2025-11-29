@@ -144,15 +144,15 @@
 </style>
 <footer class="footer">
 
-    <img src="img/cristalAzul.webp" alt="Decoração" class="imgFooter decoracaoFooter imgEsquerda">
-    <img src="img/cristalAzul.webp" alt="Decoração" class="imgFooter decoracaoFooter imgDireita">
+    <img src="../assets/cristalAzul.webp" alt="Decoração" class="imgFooter decoracaoFooter imgEsquerda">
+    <img src="../assets/cristalAzul.webp" alt="Decoração" class="imgFooter decoracaoFooter imgDireita">
 
 
     <div class="footerMain">
 
         <div class="footerColuna informacoes">
             <div class="logo">
-                <img class="imgLogo" src="img/logo.png" alt="Logo Los Pollos Hermanos Tech">
+                <img class="imgLogo" src="../assets/logo.png" alt="Logo Los Pollos Hermanos Tech">
                 <div class="textoFooter">
                     <span class="titulo">Los Pollos Hermanos Tech</span>
                     <span class="brand-tagline">Excelência em inovação</span>

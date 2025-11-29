@@ -76,7 +76,7 @@
 <header class="header">
 
     <a href="#" class="logoContainer">
-        <img src="img/logo.png" alt="Los Pollos Hermanos Tech Logo" class="logoImg">
+        <img src="../assets/logo.png" alt="Los Pollos Hermanos Tech Logo" class="logoImg">
         <div class="logoText">
             <strong>Los Pollos Hermanos Tech</strong>
             <span>Excelência em inovação</span>
