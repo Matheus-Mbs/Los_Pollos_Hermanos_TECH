@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../assets/css/servicosilegais.css">
 </head>
 <body class="body-dark">
+    <?php include "../includes/header.php" ;?>
 
     <section class="header-section text-center">
         <div class="container">
@@ -146,5 +147,6 @@
             </div>
         </div> 
     </section>
+    <?php include "../includes/footer.php" ;?>
 </body>
 </html>

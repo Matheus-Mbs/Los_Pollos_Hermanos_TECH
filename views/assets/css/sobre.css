@@ -1,11 +1,11 @@
-body{
+.conteudosobre{
     background-color: rgb(241, 241, 241);
     text-align: center;
     align-items: center;
    display: flex;
    flex-direction: column;
-} 
-h1{
+
+   h1{
         background-color: rgb(217, 217, 217);
         width: 15%;
         border-radius: 100px;
@@ -20,6 +20,8 @@ p{
     width: 40%;
     margin-bottom: 5%;
 }
+} 
+
 .nossa-historia{
     background: linear-gradient(90deg, #0037AD 0%, #044DE9 100%);
     text-align: left;

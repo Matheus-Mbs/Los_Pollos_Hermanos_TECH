@@ -9,8 +9,10 @@
     
 </head>
 
+
 <body>
-<?php include "header.php"?>
+    <?php include "../includes/header.php" ;?>
+    <div class="conteudocarreiras">
     <h1>Carreiras</h1>
     <h2>Junte-se a nossa equipe</h2>
     <p>Em Los Pollos Hermanos Tech, buscamos profissionais que compartilham nossa paixão por qualidade, precisão e
@@ -30,16 +32,17 @@
                 <li>Conhecimento em Docker e Kubernetes</li>
                 <li>Habilidades de liderança técnica</li>
             </ul>
-            <a href=""></a><button type="button" class="botao">Candidatar-se</button></a>
+            <a href="../Contato/contato.php"><button type="button" class="botao">Candidatar-se</button></a>
         </div>
 
 
     </div>
     <div class="contato">
         <p>Tem alguma dúvida ou problema?</p>
-        <a href="">Entre em contato</a>
+        <a href="../Contato/contato.php">Entre em contato</a>
     </div>
-    <?php include "footer.php"?>
+        </div>
+    <?php include "../includes/footer.php" ;?>
 </body>
 
 </html>

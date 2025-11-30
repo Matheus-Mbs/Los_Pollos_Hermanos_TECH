@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <?php include "header.php" ?>
+    <?php include "../includes/header.php" ;?>
     <div class="container">
         <div class="custom-card card p-4">
             <div class="d-flex flex-column">
@@ -79,7 +79,7 @@
             </form>
         </div>
     </div>
-    <?php include "footer.php" ?>
+    <?php include "../includes/footer.php" ;?>
 </body>
 
 </html>

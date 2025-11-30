@@ -15,6 +15,7 @@
 
 </head>
 <body>
+    <?php include "../includes/header.php" ;?>
     <section class="services-section">
         <div class="container text-center">
 
@@ -51,7 +52,7 @@
                             </ul>
                             
                             <h4 class="price">R$ 15.000</h4>
-                            <a href="#" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
+                            <a href="../Contratar/contratar.php" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
                         </div>
                     </div>
                 </div>
@@ -77,7 +78,7 @@
                                 <li>Suporte 24/7</li>
                             </ul>
                             <h4 class="price">R$ 15.000</h4>
-                            <a href="#" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
+                            <a href="../Contratar/contratar.php" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +104,7 @@
                                 <li>Suporte 24/7</li>
                             </ul>
                             <h4 class="price">R$ 15.000</h4>
-                            <a href="#" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
+                            <a href="../Contratar/contratar.php" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
                         </div>
                     </div>
                 </div>
@@ -111,12 +112,13 @@
             </div> 
 
             <div class="footer-link">
-                <p>Tem alguma dúvida ou problema? <a href="#">Entre em contato</a></p>
+                <p>Tem alguma dúvida ou problema? <a href="../Contato/contato.php">Entre em contato</a></p>
             </div>
 
         </div> 
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <?php include "../includes/footer.php" ;?>
 </body>
 </html>

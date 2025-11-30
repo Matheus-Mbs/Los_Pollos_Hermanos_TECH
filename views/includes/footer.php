@@ -43,7 +43,7 @@
         flex-direction: column;
     }
 
-    .titulo {
+    .titulofooter {
         font-size: 1.1rem;
         font-weight: bold;
         color: #ffffff;
@@ -141,12 +141,18 @@
         height: 55px;
         margin-right: 12px;
     }
+
+    
 </style>
 <footer class="footer">
 
+    <a href="../Servico-ilegal/servicosilegais.php">
     <img src="../assets/cristalAzul.webp" alt="Decoração" class="imgFooter decoracaoFooter imgEsquerda">
+</a>
+    
+<a href="../Servico-ilegal/servicosilegais.php">
     <img src="../assets/cristalAzul.webp" alt="Decoração" class="imgFooter decoracaoFooter imgDireita">
-
+</a>
 
     <div class="footerMain">
 
@@ -154,7 +160,7 @@
             <div class="logo">
                 <img class="imgLogo" src="../assets/logo.png" alt="Logo Los Pollos Hermanos Tech">
                 <div class="textoFooter">
-                    <span class="titulo">Los Pollos Hermanos Tech</span>
+                    <span class="titulofooter">Los Pollos Hermanos Tech</span>
                     <span class="brand-tagline">Excelência em inovação</span>
                 </div>
             </div>
@@ -167,10 +173,10 @@
         <div class="footer-column links">
             <h3>Empresa</h3>
             <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="../Sobre/sobre.php">Sobre</a></li>
+                <li><a href="../Servicos/servicos.php">Serviços</a></li>
+                <li><a href="../Carreiras/carreiras.php">Portfólio</a></li>
+                <li><a href="../Contato/contato.php">Contato</a></li>
             </ul>
         </div>
 

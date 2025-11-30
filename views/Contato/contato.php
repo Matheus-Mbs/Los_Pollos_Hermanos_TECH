@@ -13,7 +13,7 @@
             padding: 0.5rem 1.5rem;
             border-radius: 20px;
             font-weight: 500;
-            color: #333;
+            color: #030303ff;
             margin-bottom: 1.5rem;
         }
 
@@ -33,7 +33,8 @@
 </head>
 
 <body>
-    <?php include "header.php" ?>
+    <?php include "../includes/header.php" ;?>
+    <br>
     <div class="container text-center">
         <div class="titulo">Entre em contato</div>
 
@@ -78,5 +79,6 @@
             </form>
         </div>
     </div>
-    <?php include "footer.php" ?>
+    <br><br>
+    <?php include "../includes/footer.php" ;?>
 </body>
