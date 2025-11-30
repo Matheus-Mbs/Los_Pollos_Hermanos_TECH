@@ -1,3 +1,33 @@
+<?php
+
+// --- LÓGICA PHP PARA ADICIONAR CLIENTE ---
+if(isset($_POST) && !empty($_POST)) {
+    // Faz requisição do controlador de Cliente
+    require_once "../../controllers/ContatoController.php";
+    
+    // Instancia o objeto Cliente
+    $c = new Contato();
+
+    // Preenche o objeto Cliente com os dados do formulário
+    $c->setNome(htmlspecialchars($_POST['campoNome']));
+    $c->setEmail(htmlspecialchars($_POST['campoEmail']));
+    $c->setTelefone(htmlspecialchars($_POST['campoTelefone']));
+    $c->setMensagem(htmlspecialchars($_POST['campoMensagem']));
+  
+
+    // Instancia o Controlador de Cliente
+    $clienteController = new ClienteController();
+    
+    // Executa o método para adicionar o cliente no banco
+    $rs = $clienteController->add($c);
+
+    // Se a inserção for bem-sucedida, redireciona para a página de listagem
+    if ($rs) {
+        header("location: ../");
+        exit();
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -49,26 +79,26 @@
         <div class="containerContato">
             <h4 class="mb-4 text-start">Envie uma mensagem</h4>
 
-            <form>
+            <form action="" method="post">
                 <div class="mb-3">
                     <label for="nome" class="form-label fw-bold">Nome</label>
-                    <input type="text" class="form-control" id="nome" required>
+                    <input type="text" class="form-control" name="campoNome" id="nome" required>
                 </div>
 
                 <div class="row mb-3">
                     <div class="col-md-6 mb-3 mb-md-0">
                         <label for="email" class="form-label fw-bold">E-mail</label>
-                        <input type="email" class="form-control" id="email" required>
+                        <input type="email" class="form-control" name="campoEmail" id="email" required>
                     </div>
                     <div class="col-md-6">
                         <label for="telefone" class="form-label fw-bold">Telefone</label>
-                        <input type="tel" class="form-control" id="telefone">
+                        <input type="tel" class="form-control" name="campoTelefone" id="telefone">
                     </div>
                 </div>
 
                 <div class="mb-4">
                     <label for="mensagem" class="form-label fw-bold">Mensagem/Currículo</label>
-                    <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                    <textarea class="form-control" id="mensagem" name="campoMensagem" rows="5" required></textarea>
                 </div>
 
                 <div class="d-grid">
