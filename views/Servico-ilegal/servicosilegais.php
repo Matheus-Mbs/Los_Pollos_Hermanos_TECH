@@ -88,7 +88,7 @@
                             </ul>
                             
                             <h4 class="card-price">R$ 25.000</h4>
-                            <a href="#" class="btn btn-primary w-100 btn-special">Contratar Serviço</a>
+                            <a href="../Contratar/contratar.php?id=4" class="btn btn-primary w-100 btn-special">Contratar Serviço</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                                 <li>Lavamos até 50.000 por dia</li>
                             </ul>
                             <h4 class="card-price">Taxa de 15%</h4>
-                            <a href="#" class="btn btn-primary w-100 btn-special">Contratar Serviço</a>
+                            <a href="../Contratar/contratar.php?id=5" class="btn btn-primary w-100 btn-special">Contratar Serviço</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                                 <li>Alto poder de revenda</li>
                             </ul>
                             <h4 class="card-price">R$ 70.000 <span class="price-note">por kilo, frete grátis!</span></h4>
-                            <a href="#" class="btn btn-primary w-100 btn-special">Comprar Pacote</a>
+                            <a href="../Contratar/contratar.php?id=6" class="btn btn-primary w-100 btn-special">Comprar Pacote</a>
                         </div>
                     </div>
                 </div>

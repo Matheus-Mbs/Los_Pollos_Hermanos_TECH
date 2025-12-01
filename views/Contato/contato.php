@@ -16,10 +16,10 @@ if(isset($_POST) && !empty($_POST)) {
   
 
     // Instancia o Controlador de Cliente
-    $clienteController = new ClienteController();
+    $contatoController = new ContatoController();
     
     // Executa o método para adicionar o cliente no banco
-    $rs = $clienteController->add($c);
+    $rs = $contatoController->add($c);
 
     // Se a inserção for bem-sucedida, redireciona para a página de listagem
     if ($rs) {

@@ -52,7 +52,7 @@
                             </ul>
                             
                             <h4 class="price">R$ 15.000</h4>
-                            <a href="../Contratar/contratar.php" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
+                            <a href="../Contratar/contratar.php?id=1" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                                 <li>Suporte 24/7</li>
                             </ul>
                             <h4 class="price">R$ 15.000</h4>
-                            <a href="../Contratar/contratar.php" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
+                            <a href="../Contratar/contratar.php?id=2" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                                 <li>Suporte 24/7</li>
                             </ul>
                             <h4 class="price">R$ 15.000</h4>
-                            <a href="../Contratar/contratar.php" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
+                            <a href="../Contratar/contratar.php?id=3" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
                         </div>
                     </div>
                 </div>
