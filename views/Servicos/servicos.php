@@ -66,16 +66,15 @@
                                 </div>
                                 <span class="tech-tag">Tecnologia</span>
                             </div>
-                            <h5 class="card-title-custom text-start">Desenvolvimento Web Premium</h5>
+                            <h5 class="card-title-custom text-start">Consultoria e Otimização de Performance</h5>
                             <p class="card-text-custom text-start">
-                                Soluções web completas com tecnologia de ponta e 
-                                design responsivo
+                                Nossa missão é reduzir o tempo de carregamento, cortar custos de servidor e garantir estabilidade máxima durante picos de acesso.
                             </p>
                             <ul class="features-list">
-                                <li>Design responsivo</li>
-                                <li>SEO otimizado</li>
-                                <li>Performance máxima</li>
-                                <li>Suporte 24/7</li>
+                                <li>Auditoria de Código e Segurança</li>
+                                <li>Refatoração de Sistemas Legados</li>
+                                <li>Otimização de Banco de Dados</li>
+                                <li>Melhoria no Core Web Vitals</li>
                             </ul>
                             <h4 class="price">R$ 15.000</h4>
                             <a href="../Contratar/contratar.php?id=2" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
@@ -92,16 +91,15 @@
                                 </div>
                                 <span class="tech-tag">Tecnologia</span>
                             </div>
-                            <h5 class="card-title-custom text-start">Desenvolvimento Web Premium</h5>
+                            <h5 class="card-title-custom text-start">Desenvolvimento de Aplicações Customizadas</h5>
                             <p class="card-text-custom text-start">
-                                Soluções web completas com tecnologia de ponta e 
-                                design responsivo
+                                Criamos softwares sob medida desenhados especificamente para as regras do seu negócio.
                             </p>
                             <ul class="features-list">
-                                <li>Design responsivo</li>
-                                <li>SEO otimizado</li>
-                                <li>Performance máxima</li>
-                                <li>Suporte 24/7</li>
+                                <li>Arquitetura de Microsserviços</li>
+                                <li>Integração de APIs Complexas</li>
+                                <li>Automação de Processos</li>
+                                <li>Painéis de Gestão</li>
                             </ul>
                             <h4 class="price">R$ 15.000</h4>
                             <a href="../Contratar/contratar.php?id=3" class="btn btn-primary w-100 btn-contratar">Contratar Serviço</a>
