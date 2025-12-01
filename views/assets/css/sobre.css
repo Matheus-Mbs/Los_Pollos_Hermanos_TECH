@@ -1,3 +1,7 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
 .conteudosobre{
     background-color: rgb(241, 241, 241);
     text-align: center;
@@ -89,4 +93,5 @@ p{
 }
 .card-principal h2{
     font-size: 20px;
+
 }
