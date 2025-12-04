@@ -1,0 +1,97 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.conteudosobre{
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    align-items: center;
+   display: flex;
+   flex-direction: column;
+
+   h1{
+        background-color: rgb(217, 217, 217);
+        width: 15%;
+        border-radius: 100px;
+        font-size: 35px;
+    }
+h2{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+p{
+    margin-top: 0%;
+    width: 40%;
+    margin-bottom: 5%;
+}
+} 
+
+.nossa-historia{
+    background: linear-gradient(90deg, #0037AD 0%, #044DE9 100%);
+    text-align: left;
+    width: 80%;
+    padding: 3%;
+    border: solid black 0.5px;
+    box-shadow: 5px 5px 10px   rgb(126, 126, 126);
+    border-radius: 20px;
+}
+.nossa-historia h2{
+    color: rgb(241, 241, 241);
+    margin-bottom: 1%;
+    font-size: 28px;
+}
+.nossa-historia p{
+    color: rgb(241, 241, 241);
+    width: 100%;
+    margin-bottom: 2%;
+    font-size: 22px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    gap: 100px;
+}
+.card{
+    background-color: white;
+    border: solid rgb(145, 145, 145) 0.5px;
+    box-shadow: 5px 5px 10px   rgb(126, 126, 126);
+    width: 550px;
+    height: 200px;
+    text-align: left;
+    display: flex;
+    border-radius: 10px;
+
+}
+.card-principal{
+    width: 200px;
+    height: 200px; 
+    text-align: center;
+}
+
+.card-principal img{
+    background-color: black;
+    border-radius: 200px;
+}
+.card-descricao{
+    padding: 5%;
+}
+.card-descricao p{
+    width: 250px;
+    font-size: 19px;
+}
+.card img{
+    border-radius: 500px;
+    width: 100px;
+    margin-top: 20px;
+}
+.card-principal p{
+    color: rgb(0,61,192);
+    text-align: center;
+    width: 200px;
+    font-size: 12px;
+}
+.card-principal h2{
+    font-size: 20px;
+
+}

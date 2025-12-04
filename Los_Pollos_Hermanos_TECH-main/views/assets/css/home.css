@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Share+Tech+Mono&family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.section-metodology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.section-metodology h1 {
+    font-size: 1.8em;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.section-metodology .metodology-title {
+    width: 300px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+
+.section-metodology h2 {
+    font-size: 1.2em;
+    color: #000000;
+    margin-top: 0;
+}
+
+.section-metodology p {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.section-metodology .highlight {
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+}
+
+/* Estrutura principal */
+.process-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.step-section {
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.step-details {
+    flex: 1;
+    max-width: 50%;
+}
+
+.step-details h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.step-details p {
+    margin-bottom: 25px;
+}
+
+
+.step-title-box {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 20px;
+    width: fit-content;
+    color: #1855EE;
+    background-color: rgba(112, 152, 255, 0.37);
+}
+
+.step-title-box .step-icon {
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+.step-title-box .step-number {
+    margin-right: 5px;
+}
+
+.step-section.reverse-layout .step-title-box {
+    color: #00bcd4;
+    background-color: #e0ffff; 
+}
+
+
+/* Checklist */
+.checklist {
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 1.05em;
+}
+
+.check-icon {
+    color: #4A90E2;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+
+.step-visual {
+    flex: 1;
+    min-height: 500px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background: linear-gradient(135deg, #4A90E2, #007bff); /* Gradiente azul */
+    color: white;
+}
+
+.cyan-box {
+    background: linear-gradient(135deg, #00bcd4, #00acc1); /* Gradiente ciano */
+    color: white;
+}
+
+
+.visual-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+}
+
+/* Indicadores de Score/Contagem */
+.quality-score, .active-experiments {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.quality-score p, .active-experiments p {
+    margin: 0;
+}
+
+.score-value {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-top: 5px !important;
+}
+
+/*============ Carrosel ===============*/
+
+section.carousel{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.card-rating{
+    width: 400px;
+    height: 400px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    border: black 2px solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.person-detail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.person-detail .svg-profile{
+    padding: 4px;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+
+.person-detail .person-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.person-detail .person-rate p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}

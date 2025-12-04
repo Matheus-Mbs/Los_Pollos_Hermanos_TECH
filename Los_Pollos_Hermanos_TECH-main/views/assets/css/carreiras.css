@@ -1,0 +1,106 @@
+body{
+   font-family: 'Inter', sans-serif;
+}
+.conteudocarreiras {
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    display: inline-block;
+
+    background-color: #e9ecef;
+
+    color: #495057;
+
+    padding: 8px 20px;
+
+    border-radius: 50px;
+
+    font-size: 1.1rem;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-top: 0%;
+  }
+  p {
+    width: 40%;
+    margin-bottom: 5%;
+    color: rgb(87, 87, 87);
+  }
+  ul {
+    color: rgb(87, 87, 87);
+  }
+}
+
+.vagas {
+  align-items: center;
+  text-align: left;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.cadastro {
+  background-color: #ffff;
+  text-align: left;
+  width: 100%;
+  padding: 2%;
+  border: solid rgb(185, 185, 185) 1px;
+  box-shadow: 5px 5px 10px rgb(126, 126, 126);
+  padding: 4%;
+  
+}
+
+.vagas h2 {
+  width: 100%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  font-size: 30px;
+}
+.vagas p {
+  margin-left: 2%;
+  font-size: 28px;
+  width: 900px;
+}
+.vagas ul {
+  margin-left: 2%;
+  font-size: 28px;
+}
+.contato {
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.contato p {
+  margin: 0%;
+  width: 300px;
+  font-size: 17px;
+}
+.botao {
+  color: #ffff;
+  background-color: rgb(0, 61, 192);
+  border: 0px;
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 2%;
+  font-size: 25px;
+}
+.cadastro h2 {
+  font-size: 18px;
+}
+
+.cadastro a {
+  font-size: 18px;
+}
+.contato a {
+  text-decoration: none;
+  color: rgb(0, 61, 192);
+  font-size: 17px;
+}
+
