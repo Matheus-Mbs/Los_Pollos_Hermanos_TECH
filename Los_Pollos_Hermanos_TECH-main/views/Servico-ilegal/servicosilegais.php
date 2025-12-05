@@ -133,7 +133,7 @@
                                 Encomenda do cristal
                             </p>
                             <ul class="features-list-special">
-                                <li>Nível de pureza de 91,1%</li>
+                                <li>Nível de pureza de 99,1%</li>
                                 <li>Laboratório de ponta</li>
                                 <li>Altamente aditivo</li>
                                 <li>Alto poder de revenda</li>

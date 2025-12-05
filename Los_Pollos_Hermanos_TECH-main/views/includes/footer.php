@@ -146,12 +146,12 @@
 </style>
 <footer class="footer">
 
-    <a href="../Servico-ilegal/servicosilegais.php">
+    <a href="../Erro/erro.php">
     <img src="../assets/cristalAzul.webp" alt="Decoração" class="imgFooter decoracaoFooter imgEsquerda">
 </a>
     
-<a href="../Servico-ilegal/servicosilegais.php">
-    <img src="../assets/cristalAzul.webp" alt="Decoração" class="imgFooter decoracaoFooter imgDireita">
+<a href="../Erro/erro.php">
+    <img src="../assets/cristalAzul.webp" alt=" Decoração" class="imgFooter decoracaoFooter imgDireita">
 </a>
 
     <div class="footerMain">

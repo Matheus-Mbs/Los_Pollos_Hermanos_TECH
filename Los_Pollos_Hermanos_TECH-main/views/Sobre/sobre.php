@@ -14,6 +14,7 @@
 <body>
     <?php include "../includes/header.php" ;?>
     <div class="conteudosobre">
+        <br>
         <h1>Sobre Nós</h1>
         <h2>Executivos de Excelência</h2>
         <p>Nossa liderança é composta por profissionais com décadas de experiência em construir e escalar operações de

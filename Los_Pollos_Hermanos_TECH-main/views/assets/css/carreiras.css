@@ -39,8 +39,8 @@ body{
 
 .vagas {
   align-items: center;
-  text-align: left;
-  width: 90%;
+  text-align: center;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -63,7 +63,7 @@ body{
 }
 .vagas p {
   margin-left: 2%;
-  font-size: 28px;
+  font-size: 22px;
   width: 900px;
 }
 .vagas ul {
@@ -85,18 +85,23 @@ body{
   color: #ffff;
   background-color: rgb(0, 61, 192);
   border: 0px;
-  width: 250px;
+  width: 220px;
   height: 40px;
   cursor: pointer;
   margin-left: 2%;
   font-size: 25px;
+  border-radius: 50px;
 }
 .cadastro h2 {
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .cadastro a {
   font-size: 18px;
+}
+
+.cadastro li {
+  font-size: 23px;
 }
 .contato a {
   text-decoration: none;

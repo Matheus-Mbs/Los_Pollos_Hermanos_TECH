@@ -25,7 +25,6 @@ if(isset($_POST) && !empty($_POST)) {
     // Se a inserção for bem-sucedida, marca a flag de sucesso
     if ($rs) {
         $sucesso = true;
-        // NOTA: O header location foi removido daqui para permitir que o HTML do popup carregue
     }
 }
 ?>
@@ -45,13 +44,21 @@ if(isset($_POST) && !empty($_POST)) {
             font-family: 'Inter', sans-serif;
         }
         .titulo {
-            display: inline-block;
-            background-color: #e0e0e0;
-            padding: 0.5rem 1.5rem;
-            border-radius: 20px;
-            font-weight: 500;
-            color: #030303ff;
-            margin-bottom: 1.5rem;
+    display: inline-block;
+
+    background-color: #e9ecef;
+
+    color: #495057;
+
+    padding: 8px 20px;
+
+    border-radius: 50px;
+
+    font-size: 1.1rem;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
         }
 
         .containerContato {
